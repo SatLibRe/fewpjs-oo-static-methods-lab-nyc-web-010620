@@ -4,6 +4,6 @@ class Formatter {
   }
   
   static sanitize(word){
-    return word.replace(/[^A-Za-z0-9-']+/g, ' ')
+    return word.replace(/[^A-Za-z0-9-']+/g, '')
   }
 }
